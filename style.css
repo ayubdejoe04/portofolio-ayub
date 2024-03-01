@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Custom styles */
+
+/* Header */
+header {
+    background: #333;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #fff;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa;
+}
+
+/* Footer */
+footer {
+    background: #333;
+}
+
+footer p {
+    margin-bottom: 0;
+    color: #fff;
+}
